@@ -1,6 +1,6 @@
 class Solution {
 public:
-void reverse(vector<int>& nums, int start, int end)
+void reverse(vector<int>& nums, int start, int end)    // ---> for cleaner code make a reverse function separate and call that function with forward and backward index that way you dont have to add 3 while loop
 {
     while(start < end)
     {
