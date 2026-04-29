@@ -2,7 +2,7 @@ class Solution {
 public:
     void rotateArrayByOne(vector<int>& nums) {
 
-        int Temp=0; //In This Variable we Have to Store the Value of Array Temporarly 
+        int Temp=0; //In This Variable we Have to Store the Value of Array Temporarly  -->first letter should be lower case
         int ArrayLength=nums.size(); //this is the Size of Array which Will be Helpful for Processing Code 
         int ForwardIndex=0;
         int BackwardIndex=ArrayLength-1;
